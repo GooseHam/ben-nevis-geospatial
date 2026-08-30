@@ -33,6 +33,6 @@ edges_bng.plot(ax=ax, color="red", linewidth=1)
 ax.set_xlim(dataset.bounds.left, dataset.bounds.right)
 ax.set_ylim(dataset.bounds.bottom, dataset.bounds.top)
 ax.set_aspect("equal")
-plt.show()
 
+plt.savefig("ben_nevis_map.png", dpi=150)
 plt.show()
