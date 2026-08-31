@@ -1,0 +1,9 @@
+name: geo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas
+  - rasterio
+  - osmnx
+prefix: /usr/local/Caskroom/miniforge/base/envs/geo
