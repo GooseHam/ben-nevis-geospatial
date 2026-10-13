@@ -1,0 +1,14 @@
+[project]
+name = "ben_nevis_geospatial"
+version = "0.1.0"
+description = "Geospatial program for mapping hiking routes on maps in Ben Nevis"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["matplotlib", "rasterio", "osmnx", "numpy", "geopandas"]
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "ben_nevis"
